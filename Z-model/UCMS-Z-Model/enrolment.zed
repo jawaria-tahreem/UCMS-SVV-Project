@@ -1,0 +1,14 @@
+EnrollCourse
+ΔUCMS
+s? : STUDENT
+c? : COURSE
+
+s? ∈ students
+c? ∈ courses
+(s?, c?) ∉ enrollments
+#(enrollments ∼ [{c?}]) < capacity c?
+
+enrollments' = enrollments ∪ {(s?, c?)}
+students' = students
+courses' = courses
+capacity' = capacity

@@ -1,0 +1,4 @@
+types
+
+StudentId = nat;
+CourseId = nat;

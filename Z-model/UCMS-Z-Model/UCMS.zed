@@ -1,0 +1,7 @@
+[STUDENT, COURSE]
+
+UCMS
+students : ℙ STUDENT
+courses : ℙ COURSE
+enrollments : STUDENT ↔ COURSE
+capacity : COURSE → ℕ

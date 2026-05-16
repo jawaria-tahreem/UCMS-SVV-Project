@@ -1,0 +1,15 @@
+state UCMS of
+students : set of StudentId
+courses : set of CourseId
+enrollments : map StudentId to set of CourseId
+
+inv mk_UCMS(students, courses, enrollments) ==
+
+forall s in set dom enrollments &
+(
+    s in set students and
+    forall c in set enrollments(s) &
+    c in set courses
+)
+
+end

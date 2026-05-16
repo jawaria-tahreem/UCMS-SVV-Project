@@ -1,0 +1,5 @@
+
+∀ c : COURSE • #(enrollments ∼ [{c}]) ≤ capacity c
+
+∀ s : STUDENT; c : COURSE •
+(s,c) ∈ enrollments ⇒ s ∈ students ∧ c ∈ courses

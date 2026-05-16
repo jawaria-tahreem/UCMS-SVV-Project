@@ -1,0 +1,12 @@
+operations
+
+DropCourse : StudentId * CourseId ==> bool
+DropCourse(sid, cid) ==
+(
+  return true
+)
+pre
+sid in set students and
+cid in set courses
+post
+RESULT = true;

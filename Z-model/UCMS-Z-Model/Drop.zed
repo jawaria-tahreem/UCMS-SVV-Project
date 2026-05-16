@@ -1,0 +1,11 @@
+DropCourse
+ΔUCMS
+s? : STUDENT
+c? : COURSE
+
+(s?, c?) ∈ enrollments
+
+enrollments' = enrollments \ {(s?, c?)}
+students' = students
+courses' = courses
+capacity' = capacity
