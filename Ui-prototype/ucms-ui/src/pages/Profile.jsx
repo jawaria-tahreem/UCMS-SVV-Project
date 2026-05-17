@@ -11,9 +11,9 @@ function Profile({ courses, enrolledCourses }) {
           alt="profile"
         />
 
-        <h1>Jawaria Tahreem</h1>
+        <h1>Haya Khan</h1>
 
-        <p>jawaria@gmail.com</p>
+        <p>Haya@gmail.com</p>
 
       </div>
 
